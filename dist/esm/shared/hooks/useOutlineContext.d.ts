@@ -1,1 +1,1 @@
-export default function useOutlineContext(): any;
+export default function useOutlineContext(): import("../types.js").OutlineContextType;

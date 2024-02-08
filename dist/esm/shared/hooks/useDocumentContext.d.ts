@@ -1,1 +1,1 @@
-export default function useDocumentContext(): any;
+export default function useDocumentContext(): import("../types.js").DocumentContextType;

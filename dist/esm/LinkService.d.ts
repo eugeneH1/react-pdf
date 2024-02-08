@@ -18,7 +18,7 @@ export default class LinkService implements IPDFLinkService {
     setExternalLinkRel(externalLinkRel?: ExternalLinkRel): void;
     setExternalLinkTarget(externalLinkTarget?: ExternalLinkTarget): void;
     setHistory(): void;
-    get pagesCount(): any;
+    get pagesCount(): number;
     get page(): number;
     set page(value: number);
     get rotation(): number;

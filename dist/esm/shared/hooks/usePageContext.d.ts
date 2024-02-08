@@ -1,1 +1,1 @@
-export default function usePageContext(): any;
+export default function usePageContext(): import("../types.js").PageContextType;

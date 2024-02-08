@@ -132,7 +132,9 @@ const Outline = function Outline(props) {
         if (!outline) {
             return null;
         }
-        return (react_1.default.createElement("ul", null, outline.map((item, itemIndex) => (react_1.default.createElement(OutlineItem_js_1.default, { key: typeof item.dest === 'string' ? item.dest : itemIndex, item: item, pdf: pdf })))));
+        return (react_1.default.createElement(react_1.default.Fragment, null,
+            react_1.default.createElement("h1", null, "Outline"),
+            react_1.default.createElement("ul", null, outline.map((item, itemIndex) => (react_1.default.createElement(OutlineItem_js_1.default, { key: typeof item.dest === 'string' ? item.dest : itemIndex, item: item, pdf: pdf }))))));
     }
     return (react_1.default.createElement("div", Object.assign({ className: (0, clsx_1.default)('react-pdf__Outline', className), ref: inputRef }, eventProps),
         react_1.default.createElement(OutlineContext_js_1.default.Provider, { value: childContext }, renderOutline())));
