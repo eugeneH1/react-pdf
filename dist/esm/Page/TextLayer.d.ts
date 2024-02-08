@@ -1,2 +1,1 @@
-import React from 'react';
-export default function TextLayer(): React.JSX.Element;
+export default function TextLayer(): any;

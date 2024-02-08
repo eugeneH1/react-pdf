@@ -1,2 +1,1 @@
-import React from 'react';
-export default function PageSVG(): React.JSX.Element;
+export default function PageSVG(): any;

@@ -1,2 +1,1 @@
-import React from 'react';
-export default function AnnotationLayer(): React.JSX.Element;
+export default function AnnotationLayer(): any;

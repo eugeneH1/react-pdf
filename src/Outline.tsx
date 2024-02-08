@@ -185,15 +185,18 @@ const Outline: React.FC<OutlineProps> = function Outline(props) {
     }
 
     return (
-      <ul>
-        {outline.map((item, itemIndex) => (
-          <OutlineItem
-            key={typeof item.dest === 'string' ? item.dest : itemIndex}
-            item={item}
-            pdf={pdf}
-          />
-        ))}
-      </ul>
+      <>
+        <h1>Outline</h1>
+        <ul>
+          {outline.map((item, itemIndex) => (
+            <OutlineItem
+              key={typeof item.dest === 'string' ? item.dest : itemIndex}
+              item={item}
+              pdf={pdf}
+            />
+          ))}
+        </ul>
+      </>
     );
   }
 

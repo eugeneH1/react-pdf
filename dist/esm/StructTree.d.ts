@@ -1,2 +1,1 @@
-import React from 'react';
-export default function StructTree(): React.JSX.Element | null;
+export default function StructTree(): any;

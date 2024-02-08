@@ -1,4 +1,2 @@
-/// <reference types="react" />
-import type { PageContextType } from './shared/types.js';
-declare const _default: import("react").Context<PageContextType>;
+declare const _default: any;
 export default _default;

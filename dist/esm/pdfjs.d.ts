@@ -1,3 +1,2 @@
-import * as pdfjsModule from 'pdfjs-dist';
-declare const pdfjs: typeof pdfjsModule;
+declare const pdfjs: any;
 export default pdfjs;
