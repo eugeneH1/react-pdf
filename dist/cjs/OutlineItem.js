@@ -79,6 +79,7 @@ function OutlineItem(props) {
     }
     return (react_1.default.createElement("li", null,
         react_1.default.createElement("a", { href: "#", onClick: onClick }, item.title),
+        react_1.default.createElement("p", null, "test"),
         renderSubitems()));
 }
 exports.default = OutlineItem;
