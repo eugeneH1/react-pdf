@@ -108,9 +108,9 @@ export default function OutlineItem(props: OutlineItemProps) {
     <li>
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a href="#" onClick={onClick}>
-        {item.title}
+        {/* {item.title} */}
+        test
       </a>
-      <p>test</p>
       {renderSubitems()}
     </li>
   );

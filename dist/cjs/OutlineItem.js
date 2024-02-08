@@ -78,8 +78,7 @@ function OutlineItem(props) {
         return (react_1.default.createElement("ul", null, subitems.map((subitem, subitemIndex) => (react_1.default.createElement(OutlineItem, Object.assign({ key: typeof subitem.dest === 'string' ? subitem.dest : subitemIndex, item: subitem, pdf: pdf }, otherProps))))));
     }
     return (react_1.default.createElement("li", null,
-        react_1.default.createElement("a", { href: "#", onClick: onClick }, item.title),
-        react_1.default.createElement("p", null, "test"),
+        react_1.default.createElement("a", { href: "#", onClick: onClick }, "test"),
         renderSubitems()));
 }
 exports.default = OutlineItem;
